@@ -1,0 +1,9 @@
+D:\ملفات تعليم\C#\Advanced C#+SQLServer Using MVP Design Pattern 2020 (Arabic)\Sourc code\LipraryMVP\LipraryMVP\obj\Debug\LipraryMVP.Properties.Resources.resources
+D:\ملفات تعليم\C#\Advanced C#+SQLServer Using MVP Design Pattern 2020 (Arabic)\Sourc code\LipraryMVP\LipraryMVP\obj\Debug\LipraryMVP.csproj.GenerateResource.Cache
+D:\ملفات تعليم\C#\Advanced C#+SQLServer Using MVP Design Pattern 2020 (Arabic)\Sourc code\LipraryMVP\LipraryMVP\obj\Debug\LipraryMVP.csproj.CoreCompileInputs.cache
+D:\ملفات تعليم\C#\Advanced C#+SQLServer Using MVP Design Pattern 2020 (Arabic)\Sourc code\LipraryMVP\LipraryMVP\bin\Debug\LipraryMVP.exe.config
+D:\ملفات تعليم\C#\Advanced C#+SQLServer Using MVP Design Pattern 2020 (Arabic)\Sourc code\LipraryMVP\LipraryMVP\bin\Debug\LipraryMVP.exe
+D:\ملفات تعليم\C#\Advanced C#+SQLServer Using MVP Design Pattern 2020 (Arabic)\Sourc code\LipraryMVP\LipraryMVP\bin\Debug\LipraryMVP.pdb
+D:\ملفات تعليم\C#\Advanced C#+SQLServer Using MVP Design Pattern 2020 (Arabic)\Sourc code\LipraryMVP\LipraryMVP\obj\Debug\LipraryMVP.exe
+D:\ملفات تعليم\C#\Advanced C#+SQLServer Using MVP Design Pattern 2020 (Arabic)\Sourc code\LipraryMVP\LipraryMVP\obj\Debug\LipraryMVP.pdb
+D:\ملفات تعليم\C#\Advanced C#+SQLServer Using MVP Design Pattern 2020 (Arabic)\Sourc code\LipraryMVP\LipraryMVP\obj\Debug\LipraryMVP.csprojResolveAssemblyReference.cache

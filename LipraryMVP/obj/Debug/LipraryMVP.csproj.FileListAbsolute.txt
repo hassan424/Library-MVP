@@ -54,3 +54,4 @@ D:\ملفات تعليم\C#\Advanced C#+SQLServer Using MVP Design Pattern 2020 
 D:\ملفات تعليم\C#\Advanced C#+SQLServer Using MVP Design Pattern 2020 (Arabic)\Sourc code\LipraryMVP\LipraryMVP\bin\Debug\DevExpress.BonusSkins.v18.1.dll
 D:\ملفات تعليم\C#\Advanced C#+SQLServer Using MVP Design Pattern 2020 (Arabic)\Sourc code\LipraryMVP\LipraryMVP\obj\Debug\LipraryMVP.Views.Forms.Frm_Category.resources
 D:\ملفات تعليم\C#\Advanced C#+SQLServer Using MVP Design Pattern 2020 (Arabic)\Sourc code\LipraryMVP\LipraryMVP\obj\Debug\LipraryMVP.Views.Forms.Frm_BookPlace.resources
+D:\ملفات تعليم\C#\Advanced C#+SQLServer Using MVP Design Pattern 2020 (Arabic)\Sourc code\LipraryMVP\LipraryMVP\obj\Debug\LipraryMVP.Views.Forms.Frm_DarNashr.resources

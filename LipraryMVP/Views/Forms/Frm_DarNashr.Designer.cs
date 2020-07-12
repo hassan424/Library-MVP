@@ -1,6 +1,6 @@
 ﻿namespace LipraryMVP.Views.Forms
 {
-    partial class Frm_BookPlace
+    partial class Frm_DarNashr
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.Windows.Forms.GroupBox groupBox3;
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_BookPlace));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_DarNashr));
             System.Windows.Forms.GroupBox groupBox2;
             System.Windows.Forms.GroupBox groupBox1;
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -43,6 +43,8 @@
             this.btnLast = new DevExpress.XtraEditors.SimpleButton();
             this.btnNext = new DevExpress.XtraEditors.SimpleButton();
             this.btnPervios = new DevExpress.XtraEditors.SimpleButton();
+            this.label3 = new System.Windows.Forms.Label();
+            this.cbxCountry = new System.Windows.Forms.ComboBox();
             this.txt_Name = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.txt_ID = new System.Windows.Forms.TextBox();
@@ -66,10 +68,10 @@
             groupBox3.Controls.Add(this.btnAdd);
             groupBox3.Controls.Add(this.btnNew);
             groupBox3.Font = new System.Drawing.Font("Droid Arabic Kufi", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            groupBox3.Location = new System.Drawing.Point(12, 192);
+            groupBox3.Location = new System.Drawing.Point(12, 248);
             groupBox3.Name = "groupBox3";
             groupBox3.Size = new System.Drawing.Size(594, 84);
-            groupBox3.TabIndex = 6;
+            groupBox3.TabIndex = 10;
             groupBox3.TabStop = false;
             groupBox3.Text = "العمليات المتاحة";
             // 
@@ -158,10 +160,10 @@
             groupBox2.Controls.Add(this.btnNext);
             groupBox2.Controls.Add(this.btnPervios);
             groupBox2.Font = new System.Drawing.Font("Droid Arabic Kufi", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            groupBox2.Location = new System.Drawing.Point(145, 102);
+            groupBox2.Location = new System.Drawing.Point(145, 158);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new System.Drawing.Size(322, 84);
-            groupBox2.TabIndex = 5;
+            groupBox2.TabIndex = 9;
             groupBox2.TabStop = false;
             groupBox2.Text = "اسهم التنقل";
             // 
@@ -203,6 +205,8 @@
             // 
             // groupBox1
             // 
+            groupBox1.Controls.Add(this.label3);
+            groupBox1.Controls.Add(this.cbxCountry);
             groupBox1.Controls.Add(this.txt_Name);
             groupBox1.Controls.Add(this.label2);
             groupBox1.Controls.Add(this.txt_ID);
@@ -210,10 +214,28 @@
             groupBox1.Font = new System.Drawing.Font("Droid Arabic Kufi", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             groupBox1.Location = new System.Drawing.Point(12, 12);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new System.Drawing.Size(594, 84);
-            groupBox1.TabIndex = 4;
+            groupBox1.Size = new System.Drawing.Size(594, 140);
+            groupBox1.TabIndex = 8;
             groupBox1.TabStop = false;
-            groupBox1.Text = "بيانات المكان";
+            groupBox1.Text = "بيانات دور النشر";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.label3.Location = new System.Drawing.Point(205, 89);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(57, 28);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "الدولة:";
+            // 
+            // cbxCountry
+            // 
+            this.cbxCountry.FormattingEnabled = true;
+            this.cbxCountry.Location = new System.Drawing.Point(19, 86);
+            this.cbxCountry.Name = "cbxCountry";
+            this.cbxCountry.Size = new System.Drawing.Size(183, 36);
+            this.cbxCountry.TabIndex = 4;
             // 
             // txt_Name
             // 
@@ -230,9 +252,9 @@
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.label2.Location = new System.Drawing.Point(202, 35);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(95, 28);
+            this.label2.Size = new System.Drawing.Size(76, 28);
             this.label2.TabIndex = 2;
-            this.label2.Text = "اسم االمكان:";
+            this.label2.Text = "اسم الدار:";
             // 
             // txt_ID
             // 
@@ -249,9 +271,9 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.label1.Location = new System.Drawing.Point(497, 35);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(88, 28);
+            this.label1.Size = new System.Drawing.Size(73, 28);
             this.label1.TabIndex = 0;
-            this.label1.Text = "رقم المكان:";
+            this.label1.Text = "رقم الدار:";
             // 
             // Dgv
             // 
@@ -264,16 +286,16 @@
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.Dgv.DefaultCellStyle = dataGridViewCellStyle1;
-            this.Dgv.Location = new System.Drawing.Point(12, 283);
+            this.Dgv.Location = new System.Drawing.Point(612, 12);
             this.Dgv.Name = "Dgv";
-            this.Dgv.Size = new System.Drawing.Size(594, 235);
-            this.Dgv.TabIndex = 7;
+            this.Dgv.Size = new System.Drawing.Size(457, 320);
+            this.Dgv.TabIndex = 11;
             // 
-            // Frm_BookPlace
+            // Frm_DarNashr
             // 
             this.Appearance.Options.UseFont = true;
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.ClientSize = new System.Drawing.Size(618, 530);
+            this.ClientSize = new System.Drawing.Size(1082, 345);
             this.Controls.Add(this.Dgv);
             this.Controls.Add(groupBox3);
             this.Controls.Add(groupBox2);
@@ -281,12 +303,13 @@
             this.Font = new System.Drawing.Font("Droid Arabic Kufi", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.LookAndFeel.UseDefaultLookAndFeel = false;
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.MaximizeBox = false;
-            this.Name = "Frm_BookPlace";
+            this.Name = "Frm_DarNashr";
             this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.RightToLeftLayout = true;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "اماكن الكتب";
+            this.Text = "دور النشر";
             groupBox3.ResumeLayout(false);
             groupBox2.ResumeLayout(false);
             groupBox1.ResumeLayout(false);
@@ -298,20 +321,22 @@
 
         #endregion
 
+        private System.Windows.Forms.DataGridView Dgv;
         private DevExpress.XtraEditors.SimpleButton btnClose;
+        private DevExpress.XtraEditors.SimpleButton btnDeleteAll;
         private DevExpress.XtraEditors.SimpleButton btnDelete;
         private DevExpress.XtraEditors.SimpleButton btnEdit;
         private DevExpress.XtraEditors.SimpleButton btnAdd;
+        private DevExpress.XtraEditors.SimpleButton btnNew;
+        private System.Windows.Forms.TextBox txt_Name;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txt_ID;
         private DevExpress.XtraEditors.SimpleButton btnFirst;
         private DevExpress.XtraEditors.SimpleButton btnLast;
         private DevExpress.XtraEditors.SimpleButton btnNext;
-        private DevExpress.XtraEditors.SimpleButton btnDeleteAll;
-        private System.Windows.Forms.TextBox txt_Name;
-        private System.Windows.Forms.Label label2;
         private DevExpress.XtraEditors.SimpleButton btnPervios;
-        private System.Windows.Forms.TextBox txt_ID;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridView Dgv;
-        private DevExpress.XtraEditors.SimpleButton btnNew;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ComboBox cbxCountry;
     }
 }
